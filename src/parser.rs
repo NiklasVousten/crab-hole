@@ -158,6 +158,7 @@ impl Comment {
 	}
 }
 
+#[allow(dead_code)]
 pub(crate) enum Line {
 	Domain(Domain),
 	IpDomain(IpAddr, Domain),
